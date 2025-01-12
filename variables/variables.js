@@ -2,6 +2,8 @@ const accountId = "123233"
 let accountPassword = "a234a"
 var accountCity = "Dhaka"
 
+let accountState;
+
 // accountId = "1111" //this is not valid as accountId is declared as constant.
 
 /*
@@ -12,4 +14,4 @@ funtion scope.
 // to declare a variable either used const or let
 
 console.log(accountId)
-console.table([accountId,accountPassword,accountCity])
+console.table([accountId,accountPassword,accountCity,accountState])
